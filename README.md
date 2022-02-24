@@ -87,7 +87,7 @@ public/privateの切替設定は、下記の手順で可能である。
 なお、フォルダ内にさらにフォルダを作成して、階層構造化することも可能。
 
 
-# 4. Github内の画像引用
+# 4. Github内の画像参照
 ## 4.1 画像パスの取得
 画像パスの取得方法は、下記の手順で可能である。
 - 手順1：「3.2 フォルダの作成」に従って、リポジトリ内に、画像アップロード用のフォルダを作成する。
@@ -96,23 +96,29 @@ public/privateの切替設定は、下記の手順で可能である。
 - 手順4：「Code」ページ内で、取得したい画像まで移動すると、画像が表示される。
 - 手順5：表示画像の上で右クリック=>「画像アドレスをコピー」で、画像パスをコピーできる。
 
-
-> リポジトリ内のディレクトリ構造
-> リポジトリ                      <=リポジトリのhome
->  ├── docA                       <=docA用フォルダ
->  │    ├── docA_readme           <=docAの仮ファイル
->  │    └── images                <=docAの画像アップロード用フォルダ
->  │         ├── imagesA_readme   <=imagesAの仮ファイル
->  │         ├── shotA1.jpg
->  │         └── shotA2.jpg
->  └── docB                       <=docB用フォルダ
->       ├── docB_readme           <=docBの仮ファイル
->       └── images                <=docBの画像アップロード用フォルダ
->            ├── imagesB_readme   <=imagesBの仮ファイル
->            ├── shotB1.jpg
->            └── shotB2.jpg
+下記のようなイメージ。
+```
+リポジトリ内のディレクトリ構造
+リポジトリ                      <=リポジトリのhome
+ ├── docA                       <=docA用フォルダ
+ │    ├── docA_readme           <=docAの仮ファイル
+ │    └── images                <=docAの画像アップロード用フォルダ
+ │         ├── imagesA_readme   <=imagesAの仮ファイル
+ │         ├── shotA1.jpg
+ │         └── shotA2.jpg
+ └── docB                       <=docB用フォルダ
+      ├── docB_readme           <=docBの仮ファイル
+      └── images                <=docBの画像アップロード用フォルダ
+           ├── imagesB_readme   <=imagesBの仮ファイル
+           ├── shotB1.jpg
+           └── shotB2.jpg
+```
 
 
 ## 4.2 ファイルのアップロード
+マークダウン中で、下記形式の"*URL*"に画像パスをペーストすると、Github内の画像を参照できる。
 
-<img src="https://github.com/watarukumagai-git/denovo/blob/main/survey/survey_20220301_kumagai/images/shot1.jpg?raw=true" width="90%">
+```
+<img src="*URL*" width="*size*">
+```
+
