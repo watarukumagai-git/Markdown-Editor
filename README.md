@@ -96,4 +96,23 @@ public/privateの切替設定は、下記の手順で可能である。
 - 手順4：「Code」ページ内で、取得したい画像まで移動すると、画像が表示される。
 - 手順5：表示画像の上で右クリック=>「画像アドレスをコピー」で、画像パスをコピーできる。
 
+
+> リポジトリ内のディレクトリ構造
+> リポジトリ                      <=リポジトリのhome
+>  ├── docA                       <=docA用フォルダ
+>  │    ├── docA_readme           <=docAの仮ファイル
+>  │    └── images                <=docAの画像アップロード用フォルダ
+>  │         ├── imagesA_readme   <=imagesAの仮ファイル
+>  │         ├── shotA1.jpg
+>  │         └── shotA2.jpg
+>  └── docB                       <=docB用フォルダ
+>       ├── docB_readme           <=docBの仮ファイル
+>       └── images                <=docBの画像アップロード用フォルダ
+>            ├── imagesB_readme   <=imagesBの仮ファイル
+>            ├── shotB1.jpg
+>            └── shotB2.jpg
+
+
 ## 4.2 ファイルのアップロード
+
+<img src="https://github.com/watarukumagai-git/denovo/blob/main/survey/survey_20220301_kumagai/images/shot1.jpg?raw=true" width="90%">
